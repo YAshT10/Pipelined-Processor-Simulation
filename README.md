@@ -2,6 +2,8 @@ A scalar pipelined processor with a 256B instruction cache (I$) and a 256B data 
 It is a five-stage instruction pipeline: IF-ID-EX-MEM-WB
 The instructions are to be of a fixed length of 2 bytes each.
 
+The instruction description can be found in the Problem Statement pdf.
+
 All the input files are in the input folder, 
 ICache.txt - stores instructions in 1 byte each line.
 DCache.txt- stores initial memory data.
